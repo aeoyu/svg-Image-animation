@@ -1,3 +1,119 @@
+/********** Main style *********/
+
 body {
     margin: 0;
+    background-color: rgb(201, 184, 168);
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    margin: 8%;
+}
+
+/* First icon */
+
+.first-moon1 {
+    fill: rgb(213, 173, 252);
+}
+
+.first-moon2 {
+    fill: rgb(248, 248, 21);
+    stroke: rgb(253, 242, 242);
+    animation-name: animate;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animate {
+    0% {
+        filter: drop-shadow(0px 0px 1px rgb(255, 245, 245)) drop-shadow(0px 0px 3px rgb(255, 241, 118))
+    }
+    100% {
+        filter: drop-shadow(0px 2px 4px rgb(255, 255, 255)) drop-shadow(0px 0px 6px rgb(255, 255, 255))
+    }
+}
+
+.first-moon3 {
+    fill: rgb(248, 126, 126);
+}
+
+/* second icon */
+
+.second-moon1 {
+    fill: rgb(157, 255, 201);
+    stroke: #f3ffc8;
+    animation: pulse 1s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(0.7);
+    }
+    to {
+        transform: scale(1.3);
+    }
+}
+
+.second-moon2 {
+    fill: rgb(255, 175, 222);
+    stroke: #ffdcfc;
+    animation: pulse 0.9s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.second-moon3 {
+    fill: rgb(252, 255, 206);
+    stroke: #ffffff;
+    animation: pulse 0.8s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+/* Third icon */
+
+.third-moon1 {
+    fill: rgb(248, 242, 239);
+    animation-name: animate1;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animate1 {
+    0% {
+        filter: drop-shadow(0px 0px 3px rgb(247, 218, 237)) drop-shadow(0px 0px 6px rgb(122, 131, 255))
+    }
+    100% {
+        filter: drop-shadow(0px 0px 2px rgb(245, 248, 79)) drop-shadow(0px 0px 3px rgb(148, 255, 116))
+    }
+}
+
+.third-moon2 {
+    fill: lightyellow;
+}
+
+.third-moon2:hover {
+    filter: drop-shadow(9px 7px 6px rgb(191, 255, 205));
+    animation: infinite;
+}
+
+.third-moon3 {
+    fill: mintcream;
 }
