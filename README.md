@@ -4,8 +4,8 @@
 
 **Author :** Filora
 
-**Repo :** [Github Repo]()
+**Repo :** [Github Repo](https://github.com/aeoyu/cpnt201-a3)
 
-**Site :** [Github Pages]()
+**Site :** [Github Pages](https://aeoyu.github.io/cpnt201-a3/)
 
 ---
